@@ -1,0 +1,21 @@
+@import '../../styles.scss';
+
+.topnav {
+    overflow: hidden;
+    background-color: v(header-background);
+    border: 3px solid v(border-color);
+}
+
+.topnav a {
+    float: left;
+    color: v(header-text);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.topnav a.active, a:hover {
+    background-color: v(header-selected-background);
+    color: v(header-selected-text);
+}

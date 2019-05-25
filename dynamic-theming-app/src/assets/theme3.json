@@ -1,0 +1,45 @@
+{
+    "colors": [
+        {
+            "name": "header-text",
+            "value": "blue"
+        },
+        {
+            "name": "header-background",
+            "value": "white"
+        },
+        {
+            "name": "header-selected-text",
+            "value": "blue"
+        },
+        {
+            "name": "header-selected-background",
+            "value": "yellow"
+        },
+        {
+            "name": "footer-text",
+            "value": "blue"
+        },
+        {
+            "name": "footer-background",
+            "value": "white"
+        },
+        {
+            "name": "main-text",
+            "value": "blue"
+        },
+        {
+            "name": "main-background",
+            "value": "yellow"
+        },
+        {
+            "name": "border-color",
+            "value": "blue"
+        }
+    ],
+    "fonts": [{
+        "name": "font-family",
+        "value": "Verdana, Geneva, Tahoma, sans-serif"
+    }]
+
+}

@@ -1,0 +1,9 @@
+@import '../../styles.scss';
+
+.footer {
+    width: 100%;
+    height: 100px;
+    background-color: v(footer-background);
+    color: v(footer-text);
+    border: 3px solid v(border-color);
+}

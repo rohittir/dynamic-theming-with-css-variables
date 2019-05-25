@@ -1,0 +1,17 @@
+/* You can add global styles to this file, and also import other style files */
+
+
+@function v($var, $fallback: null) {
+  @if($fallback) {
+    @return var(--#{$var}, #{$fallback});
+  } @else {
+    @return var(--#{$var});
+  }
+}
+
+body {
+  box-sizing: border-box;
+  font-family: v(font-family);
+}
+
+
